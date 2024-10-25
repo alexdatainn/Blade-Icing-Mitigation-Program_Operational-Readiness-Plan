@@ -1,0 +1,490 @@
+{
+  "sites": {
+    "AMHST": {
+      "Lat": "44.14526",
+      "Lon": "-76.71101",
+      "tz": -5,
+      "DSTobserved": true,
+      "HubHeight" : 95,
+      "RHTreshold" : {
+        "RHGlaze": 95,
+        "RHHardR" : 90,
+        "RHSoftR" : 80
+      },
+      "Pitch": {
+        "PitchIN_ws": 3,
+        "PitchOUT_ws": 8.5
+      },
+      "WindZone": {
+        "zone1": ["Below 3", 3],
+        "zone2": ["3 To 8.5", 8.5],
+        "zone3": ["8.5 To 14", 14],
+        "zone4": ["Above 14"]
+      },
+      "parameters": {
+        "HRRR": ["WSPD_80M","TMP_925MB","RH","SQP"],
+        "NAM": [],
+        "GFS": []
+      }
+    },
+    "BLH": {
+      "Lat": "50.37191",
+      "Lon": "-106.96631",
+      "tz": -6,
+      "DSTobserved": false,
+      "HubHeight" : 90,
+      "RHTreshold" : {
+        "RHGlaze": 92,
+        "RHHardR" : 90,
+        "RHSoftR" : 80
+      },
+      "Pitch": {
+        "PitchIN_ws": 3,
+        "PitchOUT_ws": 8.5
+      },
+      "WindZone": {
+        "zone1": ["Below 3", 3],
+        "zone2": ["3 To 8.5", 8.5],
+        "zone3": ["8.5 To 14", 14],
+        "zone4": ["Above 14"]
+      },
+      "parameters": {
+        "HRRR": ["WSPD_80M","TMP_925MB","RH","SQP"],
+        "NAM": [],
+        "GFS": []
+      }
+    },
+    "DAMA": {
+      "Lat": "48.62928",
+      "Lon": "-67.82650",
+      "tz": -5,
+      "DSTobserved": true,
+      "HubHeight" : 95,
+      "RHTreshold" : {
+        "RHGlaze": 95,
+        "RHHardR" : 90,
+        "RHSoftR" : 80
+      },
+      "Pitch": {
+        "PitchIN_ws": 3,
+        "PitchOUT_ws": 8.5
+      },
+      "WindZone": {
+        "zone1": ["Below 3", 3],
+        "zone2": ["3 To 8.5", 8.5],
+        "zone3": ["8.5 To 14", 14],
+        "zone4": ["Above 14"]
+      },
+      "parameters": {
+        "HRRR": ["WSPD_80M","TMP_925MB","RH","SQP"],
+        "NAM": [],
+        "GFS": []
+      }
+    },
+    "DFS": {
+      "Lat": "43.94092",
+      "Lon": "-82.90077",
+      "tz": -5,
+      "DSTobserved": true,
+      "HubHeight" : 95,
+      "RHTreshold" : {
+        "RHGlaze": 95,
+        "RHHardR" : 90,
+        "RHSoftR" : 80
+      },
+      "Pitch": {
+        "PitchIN_ws": 3,
+        "PitchOUT_ws": 8.5
+      },
+      "WindZone": {
+        "zone1": ["Below 3", 3],
+        "zone2": ["3 To 8.5", 8.5],
+        "zone3": ["8.5 To 14", 14],
+        "zone4": ["Above 14"]
+      },
+      "parameters": {
+        "HRRR": ["WSPD_80M","TMP_925MB","RH","SQP"],
+        "NAM": [],
+        "GFS": []
+      }
+    },
+    "DF2": {
+      "Lat": "43.94092",
+      "Lon": "-82.90077",
+      "tz": -5,
+      "DSTobserved": true,
+      "HubHeight" : 90,
+      "RHTreshold" : {
+        "RHGlaze": 95,
+        "RHHardR" : 90,
+        "RHSoftR" : 80
+      },
+      "Pitch": {
+        "PitchIN_ws": 3,
+        "PitchOUT_ws": 8.5
+      },
+      "WindZone": {
+        "zone1": ["Below 3", 3],
+        "zone2": ["3 To 8.5", 8.5],
+        "zone3": ["8.5 To 14", 14],
+        "zone4": ["Above 14"]
+      },
+      "parameters": {
+        "HRRR": ["WSPD_80M","TMP_925MB","RH","SQP"],
+        "NAM": [],
+        "GFS": []
+      }
+    },
+    "EBR": {
+      "Lat": "48.46416",
+      "Lon": "-71.72227",
+      "tz": -5,
+      "DSTobserved": true,
+      "HubHeight" : 90,
+      "RHTreshold" : {
+        "RHGlaze": 95,
+        "RHHardR" : 90,
+        "RHSoftR" : 80
+      },
+      "Pitch": {
+        "PitchIN_ws": 3,
+        "PitchOUT_ws": 8.5
+      },
+      "WindZone": {
+        "zone1": ["Below 3", 3],
+        "zone2": ["3 To 8.5", 8.5],
+        "zone3": ["8.5 To 14", 14],
+        "zone4": ["Above 14"]
+      },
+      "parameters": {
+        "HRRR": ["WSPD_80M","TMP_925MB","RH","SQP"],
+        "NAM": [],
+        "GFS": []
+      }
+    },
+    "MAV": {
+      "Lat": "31.21675",
+      "Lon": "-99.84565",
+      "tz": -6,
+      "DSTobserved": true,
+      "HubHeight" : 105,
+      "RHTreshold" : {
+        "RHGlaze": 95,
+        "RHHardR" : 90,
+        "RHSoftR" : 80
+      },
+      "Pitch": {
+        "PitchIN_ws": 3,
+        "PitchOUT_ws": 8.5
+      },
+      "WindZone": {
+        "zone1": ["Below 3", 3],
+        "zone2": ["3 To 8.5", 8.5],
+        "zone3": ["8.5 To 14", 14],
+        "zone4": ["Above 14"]
+      },
+      "parameters": {
+        "HRRR": ["WSPD_80M","TMP_925MB","RH","SQP"],
+        "NAM": [],
+        "GFS": []
+      }
+    },
+    "MN": {
+      "Lat": "40.8886",
+      "Lon": "-88.98273",
+      "tz": -6,
+      "DSTobserved": true,
+      "HubHeight" : 80,
+      "RHTreshold" : {
+        "RHGlaze": 95,
+        "RHHardR" : 90,
+        "RHSoftR" : 80
+      },
+      "Pitch": {
+        "PitchIN_ws": 4,
+        "PitchOUT_ws": 7
+      },
+      "WindZone": {
+        "zone1": ["Below 4", 4],
+        "zone2": ["4 To 7", 7],
+        "zone3": ["7 To 10", 10],
+        "zone4": ["Above 10"]
+      },
+      "parameters": {
+        "HRRR": ["WSPD_80M","TMP_925MB","RH","SQP"],
+        "NAM": [],
+        "GFS": []
+      }
+    },
+    "MOR": {
+      "Lat": "50.37196",
+      "Lon": "-106.96632",
+      "tz": -6,
+      "DSTobserved": false,
+      "HubHeight" : 80,
+      "RHTreshold" : {
+        "RHGlaze": 95,
+        "RHHardR" : 90,
+        "RHSoftR" : 80
+      },
+      "Pitch": {
+        "PitchIN_ws": 3,
+        "PitchOUT_ws": 8.5
+      },
+      "WindZone": {
+        "zone1": ["Below 3", 3],
+        "zone2": ["3 To 8.5", 8.5],
+        "zone3": ["8.5 To 14", 14],
+        "zone4": ["Above 14"]
+      },
+      "parameters": {
+        "HRRR": ["WSPD_80M","TMP_925MB","RH","SQP"],
+        "NAM": [],
+        "GFS": []
+      }
+    },
+    "OWF": {
+      "Lat": "43.85483",
+      "Lon": "-94.92805",
+      "tz": -6,
+      "DSTobserved": true,
+      "HubHeight" : 95,
+      "RHTreshold" : {
+        "RHGlaze": 95,
+        "RHHardR" : 90,
+        "RHSoftR" : 80
+      },
+      "Pitch": {
+        "PitchIN_ws": 3,
+        "PitchOUT_ws": 8.5
+      },
+      "WindZone": {
+        "zone1": ["Below 3", 3],
+        "zone2": ["3 To 8.5", 8.5],
+        "zone3": ["8.5 To 14", 14],
+        "zone4": ["Above 14"]
+      },
+      "parameters": {
+        "HRRR": ["WSPD_80M","TMP_925MB","RH","SQP"],
+        "NAM": [],
+        "GFS": []
+      }
+    },
+    "RLWEP": {
+      "Lat": "50.22854",
+      "Lon": "-101.78593",
+      "tz": -6,
+      "DSTobserved": false,
+      "HubHeight" : 80,
+      "RHTreshold" : {
+        "RHGlaze": 95,
+        "RHHardR" : 90,
+        "RHSoftR" : 80
+      },
+      "Pitch": {
+        "PitchIN_ws": 4,
+        "PitchOUT_ws": 7
+      },
+       "WindZone": {
+        "zone1": ["Below 4", 4],
+        "zone2": ["4 To 7", 7],
+        "zone3": ["7 To 10", 10],
+        "zone4": ["Above 10"]
+      },
+      "parameters": {
+        "HRRR": ["RH","SQP"],
+        "NAM": [],
+        "GFS": ["TMP_925MB","WSPD_925MB"]
+      }
+    },
+    "SENT": {
+      "Lat": "33.18612",
+      "Lon": "-98.37776",
+      "tz": -6,
+      "DSTobserved": true,
+      "HubHeight" : 95,
+      "RHTreshold" : {
+        "RHGlaze": 95,
+        "RHHardR" : 90,
+        "RHSoftR" : 80
+      },
+      "Pitch": {
+        "PitchIN_ws": 4,
+        "PitchOUT_ws": 7
+      },
+       "WindZone": {
+        "zone1": ["Below 4", 4],
+        "zone2": ["4 To 7", 7],
+        "zone3": ["7 To 10", 10],
+        "zone4": ["Above 10"]
+      },
+      "parameters": {
+        "HRRR": ["WSPD_80M","TMP_925MB","RH","SQP"],
+        "NAM": [],
+        "GFS": []
+      }
+    },
+    "SL": {
+      "Lat": "49.36829",
+      "Lon": "-98.59406",
+      "tz": -6,
+      "DSTobserved": true,
+      "HubHeight" : 80,
+      "RHTreshold" : {
+        "RHGlaze": 95,
+        "RHHardR" : 90,
+        "RHSoftR" : 80
+      },
+      "Pitch": {
+        "PitchIN_ws": 4,
+        "PitchOUT_ws": 7
+      },
+      "WindZone": {
+        "zone1": ["Below 4", 4],
+        "zone2": ["4 To 7", 7],
+        "zone3": ["7 To 10", 10],
+        "zone4": ["Above 10"]
+      },
+      "parameters": {
+        "HRRR": ["WSPD_80M","TMP_925MB","RH","SQP"],
+        "NAM": [],
+        "GFS": []
+      }
+    },
+    "SO": {
+      "Lat": "41.71713",
+      "Lon": "-89.08436",
+      "tz": -6,
+      "DSTobserved": true,
+      "HubHeight" : 85,
+      "RHTreshold" : {
+        "RHGlaze": 95,
+        "RHHardR" : 90,
+        "RHSoftR" : 80
+      },
+      "Pitch": {
+        "PitchIN_ws": 3,
+        "PitchOUT_ws": 8.5
+      },
+      "WindZone": {
+        "zone1": ["Below 3", 3],
+        "zone2": ["3 To 8.5", 8.5],
+        "zone3": ["8.5 To 14", 14],
+        "zone4": ["Above 14"]
+      },
+      "parameters": {
+        "HRRR": ["WSPD_80M","TMP_925MB","RH","SQP"],
+        "NAM": [],
+        "GFS": []
+      }
+    },
+    "SO2": {
+      "Lat": "41.71713",
+      "Lon": "-89.08436",
+      "tz": -6,
+      "DSTobserved": true,
+      "HubHeight" : 90,
+      "RHTreshold" : {
+        "RHGlaze": 95,
+        "RHHardR" : 90,
+        "RHSoftR" : 80
+      },
+      "Pitch": {
+        "PitchIN_ws": 3,
+        "PitchOUT_ws": 8.5
+      },
+      "WindZone": {
+        "zone1": ["Below 3", 3],
+        "zone2": ["3 To 8.5", 8.5],
+        "zone3": ["8.5 To 14", 14],
+        "zone4": ["Above 14"]
+      },
+      "parameters": {
+        "HRRR": ["WSPD_80M","TMP_925MB","RH","SQP"],
+        "NAM": [],
+        "GFS": []
+      }
+    },
+    "SNDY": {
+      "Lat": "40.68337",
+      "Lon": "-78.35329",
+      "tz": -5,
+      "DSTobserved": true,
+      "HubHeight" : 95,
+      "RHTreshold" : {
+        "RHGlaze": 95,
+        "RHHardR" : 90,
+        "RHSoftR" : 80
+      },
+      "Pitch": {
+        "PitchIN_ws": 4,
+        "PitchOUT_ws": 10
+      },
+       "WindZone": {
+        "zone1": ["Below 4", 4],
+        "zone2": ["4 To 7", 7],
+        "zone3": ["7 To 10", 10],
+        "zone4": ["Above 10"]
+      },
+      "parameters": {
+        "HRRR": ["WSPD_80M","TMP_925MB","RH","SQP"],
+        "NAM": [],
+        "GFS": []
+      }
+    },
+    "SR2": {
+      "Lat": "40.68337",
+      "Lon": "-78.35329",
+      "tz": -5,
+      "DSTobserved": true,
+      "HubHeight" : 90,
+      "RHTreshold" : {
+        "RHGlaze": 95,
+        "RHHardR" : 90,
+        "RHSoftR" : 80
+      },
+      "Pitch": {
+        "PitchIN_ws": 3,
+        "PitchOUT_ws": 8.5
+      },
+       "WindZone": {
+        "zone1": ["Below 4", 4],
+        "zone2": ["4 To 7", 7],
+        "zone3": ["7 To 10", 10],
+        "zone4": ["Above 10"]
+      },
+      "parameters": {
+        "HRRR": ["WSPD_80M","TMP_925MB","RH","SQP"],
+        "NAM": [],
+        "GFS": []
+      }
+    },
+    "SUGR": {
+      "Lat": "40.15631",
+      "Lon": "-89.48776",
+      "tz": -6,
+      "DSTobserved": true,
+      "HubHeight" : 105,
+      "RHTreshold" : {
+        "RHGlaze": 95,
+        "RHHardR" : 90,
+        "RHSoftR" : 80
+      },
+      "Pitch": {
+        "PitchIN_ws": 3,
+        "PitchOUT_ws": 8.5
+      },
+      "WindZone": {
+        "zone1": ["Below 3", 3],
+        "zone2": ["3 To 8.5", 8.5],
+        "zone3": ["8.5 To 14", 14],
+        "zone4": ["Above 14"]
+      },
+      "parameters": {
+        "HRRR": ["WSPD_80M","TMP_925MB","RH","SQP"],
+        "NAM": [],
+        "GFS": []
+      }
+    }
+  }
+}
