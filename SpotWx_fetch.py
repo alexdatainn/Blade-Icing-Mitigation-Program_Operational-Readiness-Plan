@@ -8,7 +8,7 @@ import logging
 def fetch_spotwx_data(model, lat, lon, tz):
     logging.info(f"Fetching {model} data for lat: {lat}, lon: {lon}, tz: {tz}")
 
-    api_key = "BKhNUT8WkmToVIZdO7A1kNHmuPTWzNwU"  # Placeholder for the actual API key
+    api_key = ""  # Placeholder for the actual API key
     url = f"https://spotwx.io/api.php?key={api_key}&lat={lat}&lon={lon}&tz={tz}&model={model}"
 
     try:
